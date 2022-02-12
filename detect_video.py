@@ -165,8 +165,8 @@ def main(_argv):
         cv2.namedWindow("result", cv2.WINDOW_AUTOSIZE)
         result = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
         
-        if not FLAGS.dont_show:
-            cv2.imshow("result", result)
+#         if not FLAGS.dont_show:
+#             cv2.imshow("result", result)
         
         if FLAGS.output:
             out.write(result)
